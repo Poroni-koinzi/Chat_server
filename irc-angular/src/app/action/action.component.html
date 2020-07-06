@@ -1,0 +1,31 @@
+<div>
+    <h1 style="text-decoration: underline;">Liste des group</h1>
+</div>
+<br />
+<div *ngFor="let item of roumArray" style="display: flex;
+
+">
+    <input type="text" name="line" id="line" style="border: none; background: aqua; width: 180px" disabled
+        [(ngModel)]="item.line" />
+    <div>
+        <button name="renamebtn" style="border: none; background: aqua;" (click)="edit(item)">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <button name="suppBtn" style="border: none; background: aqua;" (click)="supprime(item)">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</div>
+<div *ngFor="let item of newArray" style="display: flex;">
+
+    <input type="text" name="line" id="line" style="border: none; background: aqua; width: 180px" disabled
+        [(ngModel)]="item.room" />
+    <div>
+        <button name="renamebtn" style="border: none; background: aqua;" (click)="edit(item)">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <button name="suppBtn" style="border: none; background: aqua;" (click)="supprime(item)">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="container">
+    <div>
+        <h1 style="text-decoration: underline;">Créer un group </h1>
+
+        <div>
+            <input type="text" class="form-control" autocomplete="off" name="roominput" id="roominput"
+                placeholder="nom du group" maxlength="10" [(ngModel)]="room" style="width: 200px;">
+            <br />
+            <button class="btn btn-success" (click)="creat()">créer group</button>
+        </div>
+    </div>
+    <br />
+    <div>
+        <app-action></app-action>
+    </div>
+</div>

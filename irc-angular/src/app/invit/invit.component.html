@@ -1,0 +1,29 @@
+<form style="display: flex;
+align-items: flex-start;
+justify-content: space-between;">
+    <td>
+        <label for="userName">pseudo</label> <br />
+        <input type="text" name="userName" autocomplete="off" [(ngModel)]="user" class="form-control" id="username"
+            placeholder="Entrez votre pseudo" maxlength="10">
+    </td>
+    <td>
+        <label for="roominput">groups</label> <br />
+        <select name="romminput" id="pet-select" [(ngModel)]="room">
+            <option value="">choisir le group</option>
+            <option *ngFor="let item of newArray">
+                {{item.line}}
+            </option>
+            <option *ngFor="let item of nowArray">
+                {{item.room}}
+            </option>
+        </select>
+    </td>
+    <td>
+        <label for="rejoindre"></label> <br />
+        <button class="btn btn-success" style=" align-self: center;" (click)="join()">Rejoindre</button>
+    </td>
+    <td>
+        <label for="quitter"></label> <br />
+        <button class="btn btn-danger" style=" align-self: center;" (click)="leave()">Quitter</button>
+    </td>
+</form>

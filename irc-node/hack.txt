@@ -1,0 +1,17 @@
+regis:bonjour poroni
+poroni:oui comment tu vas ?
+poroni:oui comment tu vas ?
+poroni:oui comment tu vas ?
+poroni:oui comment tu vas ?
+regis:bien
+toto:bonjour
+poroni:oui c'est comment 
+toto:Ca va et toi ?
+poroni:bien
+marte:bonjour zool
+zool:oui comment tu vas marte
+marte:super cool
+sylla:bonjour
+toto:bonjou
+tores:bonjour
+regis:oui comment

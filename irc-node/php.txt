@@ -1,0 +1,13 @@
+le group a bien été crée
+tanti: bonjour
+toto: a rejoint le groupe
+torres: a rejoint le groupe
+torres: a quitté le groupe
+toto: a rejoint le groupe
+poroni: a rejoint le groupe
+regis: a rejoint le groupe
+ben: a rejoint le groupe
+ben: bonjour
+regis: c'est comment ?
+ben: bien et toi
+regis: a quitté le groupe

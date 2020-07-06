@@ -1,0 +1,15 @@
+<div>
+    <h2 style="text-decoration: underline;"> Membres du group:</h2>
+</div>
+<br />
+<div *ngFor="let item of roomArray">
+    <h2 style="text-decoration: underline; text-align: center; color:rgb(225, 0, 255)">{{item.room}}</h2>
+</div>
+<br />
+<div *ngFor="let item of roomArray">
+    <span> {{item.user}}</span>
+</div>
+
+<div *ngFor="let item of messageArray">
+    <span> {{item.user}}</span>
+</div>
